@@ -1,0 +1,122 @@
+/*
+Theme Name : Shoutcoders.com
+
+Author:Sanjeev Pratap Singh
+Version : 1.0
+*/
+
+*{ margin: 0;}
+body{ 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 16px; 
+    color: #333;
+}
+
+/* Changing Colors of Links */
+a:link, a:visited{}
+
+/* Adding Line Hieght in Paragraph*/
+p{ line-height: 26px;}
+
+.clear{clear: both;}
+
+/************ General Layout for ALL Devices  ******************/
+div.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+div.inner-container{ 
+    max-width:80%; 
+    margin: 0 auto; }
+/************ General Layout for For Content of Website  ******************/
+
+
+
+/* Article Styling*/
+article.post{
+    border-bottom: 2px dotted #999;
+    clear: both;
+}
+
+article.post:last-of-type{
+    border-bottom: none;
+}
+
+
+
+/********** Header ***************/
+
+.site-header{
+   border-bottom: 2px solid #999; 
+    clear: both;
+    background: #1C3041;
+}
+
+/* Navigation Menus*/
+
+.site-header .site-navigation{
+    margin: 0;padding: 0;clear: both;
+      
+}
+.site-navigation ul{ margin-left: -40px;}
+
+.site-header .site-navigation ul li{
+    list-style:none;
+    display: inline-block;
+}
+
+
+/* Site-header Links Styling*/
+
+.site-header nav ul li a:link,a:visited{
+    display: inline-block;
+}
+.site-header nav ul li a{ color: #fff; text-decoration: none; padding: 10px 15px;}
+
+.site-header nav ul li a:hover{ background: #fff; color: #1C3041; display: inline-block; line-height: 20px;  padding: 10px 15px;
+border-radius: 4px;
+}
+
+
+/*******   Site-header Links Styling   *********/
+ 
+
+/******* One-Line Site-header Styling Starts  *********/
+
+.site-header1 a{ text-decoration: none; color: aliceblue;}
+.site-header1 h5 {    margin-top: -30px;  color: azure;}
+
+.site-header1{   width: 30%;    display: inline-table; text-align: center;  line-height: 50px;}
+
+.site-header2{  width: 69%;    display:inline-table;     text-align: center;  background: #1C3041;line-height: 50px;}
+
+
+/******* One-Line Site-header Styling  Ends *********/
+
+/*----- Subscriber ----*/
+
+div.subscribers{
+    background: url('includes/images/shoutcoders.png');
+    height: 300px !important;
+}
+
+
+
+
+/************ Footer *************/
+.site-footer{
+   border-bottom: 2px solid #999; margin-top: 10px;
+}
+
+.site-footer .site-navigation li{ list-style: none;}
+
+.site-footer .site-navigation li a {    text-decoration: none;}
+
+.copyright {
+    background: #1C3041;
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 14px;
+}
